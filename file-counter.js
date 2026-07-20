@@ -4,7 +4,7 @@ import fs from "fs/promises";
 const arg = process.argv[2];
 
 if (!arg) {
-  process.stderr.write(`please provide a file path\n`);
+  process.stderr.write(`error: please provide a file path\n`);
   process.exit(1);
 }
 
@@ -29,7 +29,7 @@ try {
   console.log("Words:", words);
   console.log("Characters:", characters);
 } catch {
-  process.stderr.write(`could not read file: ${fileName}\n`);
+  process.stderr.write(`error: could not read file: ${fileName}\n`);
 
   process.exitCode = 1;
 }
