@@ -1,6 +1,6 @@
 # 📄 File Counter CLI
 
-**Project URL:** https://roadmap.sh/projects/file-counter
+**Project URL:** [https://roadmap.sh/projects/file-counter](https://roadmap.sh/projects/nodejs-file-counter)
 
 A lightweight command-line tool built with **Node.js** that analyzes text files and reports the total number of lines, words, and characters.
 
